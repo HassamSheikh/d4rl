@@ -6,10 +6,7 @@ from setuptools import find_packages
 setup(
     name='d4rl',
     version='1.1',
-    install_requires=['gym',
-                      'numpy',
-                      'mujoco_py',
-                      'pybullet',
+    install_requires=['pybullet',
                       'h5py',
                       'termcolor',  # adept_envs dependency
                       'click',  # adept_envs dependency
